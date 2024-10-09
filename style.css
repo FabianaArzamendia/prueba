@@ -1,0 +1,88 @@
+
+div#contenedor{
+  background: #322d48;
+  padding: 15px;
+}
+
+.subcontenedor{
+  width: calc(100% - 950px);
+  height:40%;
+  background: #dcdcdc;
+  padding: 15px;
+  border-bottom: 2px solid #f7f7f7;
+  position: relative;
+  margin-top: 80px;
+  margin-left:300px;
+ 
+ 
+}
+
+
+.subcontenedor:before{
+  content: 'Live';
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  background:#dcdcdc;
+  left: 0;
+  top: -25px;
+  color: white;
+  text-align: center;
+}
+
+/* body */
+/* { */
+	/* margin-top:15px */
+	
+/* } */
+
+/*body{margin:0px;}
+
+.contenedor{background:#f7f7f7;
+             display:flex;
+			 aling-item:center;
+			 gap:10px;
+			 widht:30%;}
+ .hijo1{
+	 background:green;
+	 
+ }
+ .hijo2{
+	 background:yellow;
+	 
+ }
+ .hijo3{
+	 background:#dcdcdc;
+	 
+ }
+ .hijo4{
+	 background:green;
+	 
+ }
+ .hijo5{
+	 background:orange;
+	 
+ }*/
+ 
+ 
+ 
+ 
+ 
+
+/* div#subcontenedor:after{ */
+     /* content: url(http://lorempixel.com/25/25)url(http://lorempixel.com/25/25); */
+    /* position: absolute; */
+    /* right: -35px; */
+    /* top: 0; */
+    /* width: 25px; */
+    /* padding: 5px; */
+    /* height: 50px; */
+    /* overflow: hidden; */
+    /* background: #264541; */
+    /* border-bottom: 2px solid #2c7551; */
+    /* height: 55px;   */
+/* } */
+
+
+	
+

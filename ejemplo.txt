@@ -1,0 +1,31 @@
+
+
+<div class="subcontenedor">      
+    <div id="superior">Live</div>   
+   
+</div>
+
+
+
+
+.subcontenedor {
+    width: calc(100% - 25px - 30px);
+    background: #dcdcdc;
+    padding: 15px;
+    /* border-bottom: 2px solid #2c7551; */
+    position: relative;
+    margin-top: 30px;
+}
+
+
+.subcontenedor:before {
+    content: 'Live';
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background: #dcdcdc;
+    left: 0;
+    top: -25px;
+    color: white;
+    text-align: center;
+}
